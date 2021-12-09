@@ -25,6 +25,7 @@ html {
 }
 
 body {
+    color : var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-size: var(--font-weight-regular);
@@ -35,9 +36,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-body{
-    color: var(--text-color);
-}
 
 a{
     color: var(--text-color);
