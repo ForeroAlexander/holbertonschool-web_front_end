@@ -31,9 +31,9 @@
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
     --nav-item-font-family: var(--font-family-title);
-    --nav-item-font-size: var(--font-size-medium);
     --nav-item-font-weight: var(--font-weight-bold);
-    --nav-item-padding: 0.04rem;
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
@@ -52,7 +52,7 @@ body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font-size: var(--font-weight-regular);
+    font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
 
@@ -61,35 +61,35 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a:link{
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     font-style: italic;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-a:active{
+a:active {
     background-color: var(--color-light-grey);
 }
 
-.navbar-menu{
+.navbar-menu {
     float: right;
 }
 
-.nav{
+.nav {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
-.nav .item-nav{
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -98,16 +98,16 @@ a:active{
     margin: var(--nav-item-margin);
 }
 
-.nav .nav-link{
-    display: inline-block;
+.nav .nav-link {
+    display: block;
     padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover{
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
-visually-hidden {
+.visually-hidden {
     display: none;
 }
 
@@ -115,7 +115,7 @@ visually-hidden {
     color: var(--color-primary);
 }
 
-.section{
+.section {
     padding: var(--section-padding);
 }
 
@@ -124,11 +124,11 @@ visually-hidden {
     text-align: var(--section-header-align);
 }
 
-.section-body{
+.section-body {
     padding: var(--section-body-padding);
 }
 
-.section-footer{
+.section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
 }
@@ -148,12 +148,12 @@ visually-hidden {
     font-weight: var(--font-weight-bold);
 }
 
-.container{
+.container {
     width: 960px;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
 }
 
-.footer{
+.footer {
     padding: var(--footer-padding);
 }
