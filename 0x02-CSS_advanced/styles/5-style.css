@@ -16,9 +16,11 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 body {
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
 }
@@ -27,15 +29,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
 
-body{
+a {
     color: var(--text-color);
 }
 
-a{
-    color: var(--text-color);
-}
-
-visually-hidden {
+.visually-hidden {
     display: none;
 }
 
