@@ -17,19 +17,18 @@
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    --line-height-small: 1.2;
-    --line-height-base: 1.5;
-    --line-height-big: 1.8;
 }
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 body {
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font-size: var(--font-weight-regular);
+    font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
 
@@ -38,22 +37,18 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-body{
+a {
     color: var(--text-color);
 }
 
-a{
-    color: var(--text-color);
-}
-
-visually-hidden {
+.visually-hidden {
     display: none;
 }
 
 .card-category {
-    color: var(--color-primary);
+    color: #D73953;
 }
 
 .section-tagline {
-    color: var(--color-primary);
+    color: #D73953;
 }
