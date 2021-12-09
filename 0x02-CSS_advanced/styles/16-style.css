@@ -93,6 +93,7 @@ visually-hidden {
 }
 
 .container{
-    max-width: 960px;
-    margin: 0 auto;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
